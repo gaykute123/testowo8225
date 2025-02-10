@@ -1,0 +1,101 @@
+#xinchao {
+    text-align: center;
+}
+#desc {
+    text-align: center;
+    padding: px;
+}
+.navbar ul {
+    list-style: none;
+    background-color: rgb(192, 125, 255); 
+    padding: 0px ;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none; 
+    padding: 15px;
+    display: inline-flex;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%); 
+}
+
+.Gtjava {
+    margin-top: 5px;
+    background-color: #ffffff;
+    border-style: solid;
+}
+.Gtjava p {
+    margin-left: 7px;
+}
+/* CSS cho phần hiển thị điểm số */
+         #score-display {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            background-color: #f1c40f;
+            color: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 1000;
+            text-align: center;
+        }
+        
+        #timer-display {
+            position: fixed;
+            top: 50px;
+            right: 20px;
+            background-color: #f1c40f;
+            color: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 1000;
+            text-align: center;
+        }
+		
+        .content-section {
+            display: none;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            display: none;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .exercise-title {
+            cursor: pointer;
+            color: blue;
+            margin-bottom: 5px;
+        }
+        .exercise-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .toggle-step {
+            display: none;
+            margin-left: 20px;
+        }
+        .arrow-button {
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+		
+		
+
